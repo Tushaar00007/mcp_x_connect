@@ -7,9 +7,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.10.2"
+    "@google/genai": "^0.10.0",
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "dotenv": "^16.5.0"
   }
 }
